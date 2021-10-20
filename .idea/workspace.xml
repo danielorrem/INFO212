@@ -29,12 +29,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\Documents\GitHub\INFO212\images" />
+      <recent name="C:\Users\danie\Documents\GitHub\INFO212" />
       <recent name="$PROJECT_DIR$/script" />
       <recent name="$PROJECT_DIR$/Style" />
       <recent name="$PROJECT_DIR$/images" />
@@ -50,6 +57,7 @@
       <updated>1634650828609</updated>
       <workItem from="1634650830145" duration="456000" />
       <workItem from="1634726669887" duration="3334000" />
+      <workItem from="1634761688670" duration="1142000" />
     </task>
     <servers />
   </component>

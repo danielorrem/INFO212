@@ -1,31 +1,20 @@
-function transfer_new() {
-    $('#qrcode').html('');
-}
-
-$('#lithird').click(function() {
-
-    var qrcode = new QRCode("qrcode");
-
-    function makeCode() {
-
-        function randomNumber(len) {
-            var randomNumber;
-            var n = '';
-
-            for (var count = 0; count < len; count++) {
-                randomNumber = Math.floor(Math.random() * 10);
-                n += randomNumber.toString();
-            }
-            return n;
-        }
-
-        var value = randomNumber(13);
-
-        var elText = value;
-
-        qrcode.makeCode(elText);
+function forceDownload(link){
+    var url = link.getAttribute("data-href");
+    var fileName = link.getAttribute("download");
+    link.innerText = "Working...";
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url, true);
+    xhr.responseType = "blob";
+    xhr.onload = function(){
+        var urlCreator = window.URL || window.webkitURL;
+        var imageUrl = urlCreator.createObjectURL(this.response);
+        var tag = document.createElement('a');
+        tag.href = imageUrl;
+        tag.download = fileName;
+        document.body.appendChild(tag);
+        tag.click();
+        document.body.removeChild(tag);
+        link.innerText="Download Image";
     }
-
-    makeCode();
-
-});
+    xhr.send();
+}

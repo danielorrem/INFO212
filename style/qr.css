@@ -1,33 +1,29 @@
 main{
-    text-align: center;
-    margin-top: 30%;
+   text-align: center;
+   margin-top: 10%;
 }
 
 .button{
     background-color: white;
   border: solid;
   color: black;
-  padding: 35px 50px;
+  padding: 70px 140px;
   text-decoration: none;
   display: inline-block;
   font-size: 32px;
   table-layout: fixed;
-  width: 50%;
-}
-
-.input{
-    width: 70%;
-    padding: 40px 40px;
-    margin: 8px 0;
-    box-sizing: border-box;
+  width: 80%;
 }
 a{
     color: transparent;
 
 }
+h1{
+    font-size: 48px;
+}
 p{
     font-size: 24px;
 }
-h1{
-    font-size: 48px;
+img{
+    width: 50%;
 }

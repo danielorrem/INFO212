@@ -1,4 +1,4 @@
 import qrcode
 
-img = qrcode.make('test')
+img = qrcode.make('qr code data')
 img.save('qr_image.png')

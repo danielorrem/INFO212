@@ -1,0 +1,92 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  position: relative;
+  top: 58%;
+  font-weight: bold;
+}
+.wrapper {
+  position: absolute;
+  bottom: 90%;
+  left: 22%;
+
+  max-width: 600px;
+}
+.wrapper .input {
+  margin-top: 15%;
+  width: 85%;
+  padding: 8px 15px;
+  font-weight: bold;
+  position: relative;
+  right: 10%;
+  top: 260px;
+}
+
+.Quebtn {
+  margin: 0;
+  position: absolute;
+  top: 85%;
+  left: 18%;
+}
+
+#Quebtn {
+  box-shadow: 5px 5px 8px #888888;
+}
+
+.ButtonQue {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font: 20px arial, serif;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.ButtonQue:hover {
+  background-color: black;
+  color: white;
+}
+.bilde {
+  position: absolute;
+  top: 5%;
+  left: 18%;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  width: 270px;
+  position: relative;
+  left: 42%;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(71, 70, 70);
+  color: white;
+}
+
+.Container {
+  height: 350px;
+  width: 300px;
+  position: relative;
+  border: 2px solid;
+  left: 41%;
+  margin-top: 10px;
+}

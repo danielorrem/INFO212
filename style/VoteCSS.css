@@ -1,0 +1,95 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  font: 15px Arial, serif;
+}
+.container {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  border: 2px solid;
+  left: 43%;
+  margin-top: 10px;
+}
+.ButtonVote {
+  margin: 0;
+  position: absolute;
+  bottom: 4%;
+  left: 39%;
+}
+
+#BtnVote {
+  box-shadow: 5px 5px 8px #888888;
+}
+
+.ArtistNavn1 {
+  margin: 0;
+  position: relative;
+  top: 65%;
+  left: 35%;
+  font: bold;
+}
+
+.ArtistNavn2 {
+  margin: 0;
+  position: relative;
+  top: 65%;
+  left: 26%;
+  font: bold;
+}
+
+.Cover {
+  width: 125px;
+  right: 200px;
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 19%;
+}
+
+.Artist {
+  font-weight: bold;
+}
+
+.VoteButton {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font: 20px arial, serif;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.VoteButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  width: 270px;
+  position: relative;
+  left: 560px;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(71, 70, 70);
+  color: white;
+}

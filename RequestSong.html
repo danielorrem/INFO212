@@ -1,29 +1,36 @@
+
+
 <!DOCTYPE html>
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="styleRequest.css">
-</head>
-<html>
-	<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Song Request</title>
+    <link rel="stylesheet" href="style/styleRequest.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a onclick="window.location.href='Vote.html'" href="#Vote">Vote</a>
+      <a class="active" href="#RequestMusic">Request Music</a>
+      <a onclick="window.location.href='index.html'" href="#Home">Home</a>
+    </div>
+    <h1>Request a song!</h1>
 
-		<h1>Request a song!</h1>
+    <div class="Container">
+      <div class="wrapper">
+        <input type="text" class="input" placeholder="Search song here.." />
+      </div>
+      <div class="bilde">
+        <img src="images/saint_jhn.jpg" alt="" width="200" height="200" />
+      </div>
+      <p>
+        <i>saint Jhn<br />Wedding day<br /></i>
+      </p>
 
-		<div class="wrapper">
-			<input type="text" class="input" placeholder="Search song here..">
-			<div class="saerchbtn">
-
-			</div>
-		</div>
-		<div class="bilde">
-			<img src="img/Test.jpg" alt="" width="200" height="200">
-		</div>
-	
-		<div class="myDivTest">
-		<button type="button" onclick ="alert('song qued!')"><strong>Add song to queue</strong></button>
-		</div>
-	</body>
-
-
+      <div class="Quebtn">
+        <button class="ButtonQue" type="button" onclick="alert('song qued!')">
+          <strong>Add song to queue</strong>
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
-
-

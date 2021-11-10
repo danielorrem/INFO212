@@ -10,14 +10,14 @@ p {
   width: 200px;
   position: relative;
   border: 2px solid;
-  left: 43%;
+  left: 45%;
   margin-top: 10px;
 }
 .ButtonVote {
   margin: 0;
   position: absolute;
   bottom: 4%;
-  left: 39%;
+  left: 36%;
 }
 
 #BtnVote {
@@ -73,7 +73,7 @@ p {
   overflow: hidden;
   width: 270px;
   position: relative;
-  left: 560px;
+  left: 43%;
 }
 .topnav a {
   float: left;
